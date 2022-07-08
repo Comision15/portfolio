@@ -1,3 +1,73 @@
+/* GENERAL */
 body.home{
-    background-color: aquamarine;
+    
 }
+
+/* HEADER */
+.home__header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: var(--colorAzul);
+}
+
+.home__header h3{
+    font-family: var(--familyTitles);
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.home__header button{
+    border: none;
+    padding: 10px;
+    background-color: var(--colorVerde);
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.home__header__nav {
+    display: none;
+}
+
+/* HOME */
+
+/* HOME | BANNER */
+.home__main__section--banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    background-color: var(--colorVerde);
+}
+
+.home__main__section--banner figure{
+    width: 250px;
+}
+
+.home__main__section--banner figure img{
+    width: 100%;
+}
+
+.home__main__section--banner h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    font-family: var(--familyTitles);
+    line-height: 50px;
+}
+
+/* HOME | PORTFOLIO */
+.home__main__section--portfolio figure {
+    width: 300px;
+}
+
+.home__main__section--portfolio figure img {
+    width: 100%;
+}
+
+/* FOOTER */
