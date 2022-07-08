@@ -1,6 +1,10 @@
 /* GENERAL */
-body.home{
-    
+.home h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--colorAzul);
+    font-family: var(--familyTitles);
 }
 
 /* HEADER */
@@ -33,6 +37,20 @@ body.home{
 }
 
 /* HOME */
+.home__main__section--star {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+}
+.home__main__section--star hr{
+   width: 100px;
+   height: 4px;
+   background-color: #fff;
+   border: none;
+}
 
 /* HOME | BANNER */
 .home__main__section--banner {
@@ -41,6 +59,9 @@ body.home{
     align-items: center;
     padding: 60px 0;
     background-color: var(--colorVerde);
+    color: #fff;
+    text-align: center;
+    gap: 20px;
 }
 
 .home__main__section--banner figure{
@@ -53,15 +74,38 @@ body.home{
 
 .home__main__section--banner h1{
     text-transform: uppercase;
-    color: #fff;
     font-weight: 800;
     font-size: 3rem;
-    text-align: center;
     font-family: var(--familyTitles);
     line-height: 50px;
 }
 
 /* HOME | PORTFOLIO */
+.home__main__section--portfolio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding: 60px 0;
+}
+
+.home__main__section--portfolio .home__main__section--star {   
+    color: var(--colorAzul);
+}
+.home__main__section--portfolio .home__main__section--star hr{
+   background-color:var(--colorAzul);
+}
+
+.home__main__section--portfolio article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+
 .home__main__section--portfolio figure {
     width: 300px;
 }
